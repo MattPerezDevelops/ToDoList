@@ -1,0 +1,48 @@
+﻿@using static MudBlazor.CategoryTypes
+<h3>@HeaderName</h3>
+
+<EditForm Model="objectPermissionItem" class="form-inline" OnValidSubmit="AddObject"> 
+    <input  type="text" @bind-value="objectPermissionItem.Name"/>
+    <button class = "btn btn-outline-primary" m-2>Add Object</button>
+</EditForm>
+
+<p>This is a work in progress. I eventually would like to connect this to the AFC server to allow Object permission changes as those currently take a long time to process.</p>
+
+<ul class = "list-group my-2">
+    @foreach (var obj in Objects)
+    { 
+        <MudDataGrid Items="@Objects">
+        <Columns>
+        <Column T="Object" Field="Number" Title="Nr" />
+        <Column T="Object" Field="Name" Title="Name" />
+        <Column T="Object" Field="Status" Title="Nr" />
+        </Columns>
+    </MudDataGrid>
+    }
+</ul>
+
+
+@code {
+    protected List<ObjectModel> Objects = new List<ObjectModel>();
+
+    protected ObjectModel objectPermissionItem = new ObjectModel();
+
+    //Dynamic Header
+    protected override void OnInitialized()
+    {
+        if(HeaderName =="")
+        {
+            HeaderName = "Object Permissions";
+        }
+    }
+    [Parameter] public String? HeaderName { get; set; }
+
+
+
+    private void AddObject()
+    {
+        Objects.Add(objectPermissionItem);
+        objectPermissionItem = new ObjectModel();
+    }
+
+}
