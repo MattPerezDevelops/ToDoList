@@ -1,6 +1,7 @@
 ﻿@page "/ToDo"
 @using System.Text.RegularExpressions
 <h3>@HeaderName</h3>
+
 <!--Edit Form-->
 <EditForm Model="task" class="form-inline" OnValidSubmit="AddTask">
     <MudTextField @bind-Value="task.TaskName" Label="Add a Task" Variant="Variant.Outlined" Margin="Margin.Dense" DefaultFocus></MudTextField>
@@ -19,10 +20,10 @@
             if (taskItem.IsComplete)
             {
             <!--Task Completed-->
-            var timeUtc = DateTime.UtcNow;
-            var MountainZone = TimeZoneInfo.FindSystemTimeZoneById("Mountain Standard Time");
-            var today = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, MountainZone);
-            taskItem.completedDateTime = today;
+
+            if (taskItem.completedDateTime == new DateTime())
+                taskItem.completedDateTime = DateTime.Now;
+
             <MudAlert Severity="Severity.Error" Variant="Variant.Filled" NoIcon="true" Class="my-2" @onclick="(()=> taskItem.IsComplete = !taskItem.IsComplete)" ShowCloseIcon="true" CloseIconClicked="(() => RemoveTask(taskItem))"><del>@taskItem.TaskName</del>  <MudText Align="Align.End" Typo="Typo.subtitle2"> Completed: @taskItem.completedDateTime</MudText></MudAlert>
             }
             else
