@@ -2,11 +2,9 @@
 {
     public class TaskModel
     {
-        public string? TaskName { get; set; }
-
+        public String TaskName { get; set; }
         public bool IsComplete { get; set; }
 
-        public DateTime completedDateTime { get; set; }
-
+        public DateTime completedDateTime {get; set; }
     }
 }

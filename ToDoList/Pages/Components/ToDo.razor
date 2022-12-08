@@ -18,9 +18,12 @@
     {
             if (taskItem.IsComplete)
             {
-                <!--Task Completed-->
-                taskItem.completedDateTime = DateTime.Now;
-                <MudAlert Severity="Severity.Error" Variant="Variant.Filled" NoIcon="true" Class="my-2" @onclick="(()=> taskItem.IsComplete = !taskItem.IsComplete)" ShowCloseIcon="true" CloseIconClicked="(() => RemoveTask(taskItem))"><del> @taskItem.TaskName</del>   <MudText Align="Align.End"><b>Completed:</b> @taskItem.completedDateTime</MudText></MudAlert>
+            <!--Task Completed-->
+            var timeUtc = DateTime.UtcNow;
+            var MountainZone = TimeZoneInfo.FindSystemTimeZoneById("Mountain Standard Time");
+            var today = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, MountainZone);
+            taskItem.completedDateTime = today;
+            <MudAlert Severity="Severity.Error" Variant="Variant.Filled" NoIcon="true" Class="my-2" @onclick="(()=> taskItem.IsComplete = !taskItem.IsComplete)" ShowCloseIcon="true" CloseIconClicked="(() => RemoveTask(taskItem))"><del> @taskItem.TaskName</del>   <MudText Align="Align.End"><b>Completed:</b> @taskItem.completedDateTime</MudText></MudAlert>
             }
             else
             {
@@ -39,6 +42,7 @@
 
     protected TaskModel task = new TaskModel();
 
+
     //Dynamic Header
     protected override void OnInitialized()
     {
@@ -54,14 +58,14 @@
     {
         if (task.TaskName != null && task.TaskName != " ")
         {
-           Tasks.Add(task); 
+            Tasks.Add(task); 
         }
         task = new TaskModel();
     }
     private void RemoveTask(TaskModel task)
     {
-     Tasks.Remove(task); 
-     task = new TaskModel();   
+        Tasks.Remove(task); 
+        task = new TaskModel();   
     }
     public int PercentageCompleted
     {
@@ -70,5 +74,6 @@
             return Tasks.Count > 0 ? (Tasks.Count(x => x.IsComplete) * 100 / Tasks.Count) : 0;
         }
     }
+
  }
 

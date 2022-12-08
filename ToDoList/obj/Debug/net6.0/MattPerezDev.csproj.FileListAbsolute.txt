@@ -1,0 +1,8 @@
+C:\Users\perezm\Documents\repo\ToDoList\ToDoList\obj\Debug\net6.0\MattPerezDev.csproj.AssemblyReference.cache
+C:\Users\perezm\Documents\repo\ToDoList\ToDoList\obj\Debug\net6.0\MattPerezDev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\perezm\Documents\repo\ToDoList\ToDoList\obj\Debug\net6.0\MattPerezDev.AssemblyInfoInputs.cache
+C:\Users\perezm\Documents\repo\ToDoList\ToDoList\obj\Debug\net6.0\MattPerezDev.AssemblyInfo.cs
+C:\Users\perezm\Documents\repo\ToDoList\ToDoList\obj\Debug\net6.0\MattPerezDev.csproj.CoreCompileInputs.cache
+C:\Users\perezm\Documents\repo\ToDoList\ToDoList\obj\Debug\net6.0\MattPerezDev.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\perezm\Documents\repo\ToDoList\ToDoList\obj\Debug\net6.0\MattPerezDev.RazorAssemblyInfo.cache
+C:\Users\perezm\Documents\repo\ToDoList\ToDoList\obj\Debug\net6.0\MattPerezDev.RazorAssemblyInfo.cs
