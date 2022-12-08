@@ -15,7 +15,7 @@
 
 <ul class="list-group my-2">
 
-    @foreach (var taskItem in Tasks.OrderBy(x => x.IsComplete))
+    @foreach (var taskItem in Tasks.OrderBy(x => x.IsComplete).ThenByDescending(x => x.completedDateTime))
     {
             if (taskItem.IsComplete)
             {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LiN64npMg9aluwNgCJp4eHBykDa1BSXosT5xLLNWTe0=",
+  "Hash": "c0/HC5iN/f/t+eDcS6GUAhXseaJW+zJmTDOHcCjSo4E=",
   "Source": "ToDoList",
   "BasePath": "_content/ToDoList",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ToDoList\\wwwroot",
       "Source": "ToDoList",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "Pattern": "**"
     }
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "C:\\Users\\matth\\.nuget\\packages\\mudblazor\\6.0.11-dev.4\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ToDoList.styles.css",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ToDoList.styles.css",
       "SourceId": "ToDoList",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "ToDoList.styles.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ToDoList.styles.css"
+      "OriginalItemSpec": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ToDoList.styles.css"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ToDoList.bundle.scp.css",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ToDoList.bundle.scp.css",
       "SourceId": "ToDoList",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "ToDoList.bundle.scp.css",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ToDoList.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ToDoList.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\Content\\MattPerez-Developer-Resume-2022.pdf",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\Content\\MattPerez-Developer-Resume-2022.pdf",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "Content/MattPerez-Developer-Resume-2022.pdf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\MattPerez-Developer-Resume-2022.pdf"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\css\\site.css",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\favicon.ico",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\images\\ToDoApplication.png",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\images\\ToDoApplication.png",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "images/ToDoApplication.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ToDoApplication.png"
     },
     {
-      "Identity": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\images\\ToDoList.PNG",
+      "Identity": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\images\\ToDoList.PNG",
       "SourceId": "ToDoList",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matth\\OneDrive\\Desktop\\ToDoList\\ToDoList\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matth\\Source\\Repos\\ToDoList\\ToDoList\\wwwroot\\",
       "BasePath": "_content/ToDoList",
       "RelativePath": "images/ToDoList.PNG",
       "AssetKind": "All",
