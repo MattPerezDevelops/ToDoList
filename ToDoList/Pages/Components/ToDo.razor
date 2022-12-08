@@ -23,7 +23,7 @@
             var MountainZone = TimeZoneInfo.FindSystemTimeZoneById("Mountain Standard Time");
             var today = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, MountainZone);
             taskItem.completedDateTime = today;
-            <MudAlert Severity="Severity.Error" Variant="Variant.Filled" NoIcon="true" Class="my-2" @onclick="(()=> taskItem.IsComplete = !taskItem.IsComplete)" ShowCloseIcon="true" CloseIconClicked="(() => RemoveTask(taskItem))"><del> @taskItem.TaskName</del>   <MudText Align="Align.End"><b>Completed:</b> @taskItem.completedDateTime</MudText></MudAlert>
+            <MudAlert Severity="Severity.Error" Variant="Variant.Filled" NoIcon="true" Class="my-2" @onclick="(()=> taskItem.IsComplete = !taskItem.IsComplete)" ShowCloseIcon="true" CloseIconClicked="(() => RemoveTask(taskItem))"><del> @taskItem.TaskName</del>   <MudText Align="Align.End"><b>Completed:</b> <p>@taskItem.completedDateTime</p></MudText></MudAlert>
             }
             else
             {
