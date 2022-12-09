@@ -1,0 +1,24 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Mvc
+<PageTitle>Matt Develops</PageTitle>
+
+<MudText Align="Align.Left" Typo="Typo.h2">Hello, I am Matt Perez</MudText>
+<div mr-20>
+<MudText Align="Align.Left" Typo="Typo.subtitle1">I am a .NET Developer who loves to code, play video games, and eat Pizza. Please take a look at my projects and let me know what you think.</MudText>
+</div>
+
+<div>
+<MudCard mr-10> 
+    <MudCardContent>
+        <MudText Typo="Typo.h5">To Do Application</MudText>
+            <a href="/ToDoPage"><MudImage Src="images/ToDoList.png" Width="200" Height="150" Alt="Swedish Farm House" Elevation="25" Class="rounded-lg ma-4" /></a>
+            <MudText Typo="Typo.body2">A To Do Application to help organize tasks.</MudText>
+    </MudCardContent>
+    <MudCardActions>
+        <MudButton Variant="Variant.Text" Href="/ToDoPage" Color="Color.Primary">Check it out</MudButton>
+    </MudCardActions>
+</MudCard>
+</div>
+@code{
+
+}
